@@ -1,0 +1,128 @@
+.content, .main-title {
+    background-color: antiquewhite;
+}
+
+/* end custom navigation bar */
+
+footer {
+    background-color: gray;
+    width: 100%;
+}
+
+
+.image-preview > div {
+    position: relative;
+    max-width: 273px;
+}
+
+.image-preview img {
+    position: relative;
+    left: 0;
+    right: 0;
+    padding-top: 30px;
+
+}
+
+.image-preview .img-hint {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    transition: background-color 0.5s;
+}
+
+.image-preview .img-hint:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image-preview .par {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+
+}
+
+.image-preview .rap {
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: -20px;
+    font-weight: bold;
+    color: #4c79cf;
+}
+
+.title-decoration-line {
+    border-color: #000;
+    margin-top: 40px;
+}
+
+.title-bg-line {
+    border-color: #000;
+    position: relative;
+    top: 60px;
+    margin: 20px;
+}
+
+.main-title {
+    padding: 0 10px;
+
+}
+
+.booklet-block > div {
+    border-bottom: 1px dotted #808080;
+    padding: 10px 0;
+}
+
+.booklet-block > div:last-child {
+    border-bottom: none;
+}
+
+.booklet-block a {
+    text-decoration-line: underline;
+    font-size: 10px;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide-content > h1 {
+    position: absolute;
+    color: white;
+}
+
+#slide1-text1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    right: 53%;
+    top: 34%;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+#slide1-text2 {
+    right: 54%;
+    top: 28%
+}
+
+#slide1-text3 {
+    right: 53%;
+    top: 46%
+}
+
+#footer-logo {
+    background-color: #656565;
+    border-top: 1px solid #000;
+}
+#nam-text {
+    font-size: 107px;
+}
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33333;
+    border-radius: 0;
+    background-color: #ADA5A5;
+    border-color:  #ADA5A5;
+}
