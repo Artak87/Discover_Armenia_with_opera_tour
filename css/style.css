@@ -1,5 +1,5 @@
 .content, .main-title {
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 /* end custom navigation bar */
@@ -36,6 +36,7 @@
     padding-top: 10px;
     padding-left: 10px;
     color: white;
+    text-shadow: 2px 2px 2px #fff;
 
 }
 
@@ -48,7 +49,7 @@
 }
 
 .title-bg-line {
-    border-color: #000;
+    border-color: #767676;
     position: relative;
     top: 60px;
     margin: 20px;
@@ -56,6 +57,7 @@
 
 .main-title {
     padding: 0 10px;
+    color: #767676;
 
 }
 

@@ -28,19 +28,19 @@ header {
     margin-top: 15px;
     margin-bottom: 0;
 }
-
-.navbar-custom .dropdown-menu {
-    width: 160px;
-    left: 50%;
-    margin-left: -80px;
-    margin-top: 10px;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
+@media (min-width: 767px) {
+    .navbar-custom .dropdown-menu {
+        width: 160px;
+        left: 50%;
+        margin-left: -80px;
+        margin-top: 10px;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-bottom: 1px solid #000;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+    }
 }
-
 .navbar-nav > li > a {
     padding-top: 7px;
     padding-bottom: 7px;
@@ -128,6 +128,7 @@ header {
     color: #fff;
     padding: 3px 0;
     border-bottom: 1px solid transparent;
+    transition: border-bottom 745ms;
 }
 
 .navbar-custom .navbar-nav .dropdown-menu > li > a:hover {
@@ -193,4 +194,16 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 
 #menu {
     position: relative;
+}
+
+#select-language {
+    padding-left: 0;
+}
+
+#line {
+    padding-left: 27px;
+}
+
+#language {
+    padding-left: 20px;
 }
