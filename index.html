@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
-
 </head>
 <body>
 
@@ -112,7 +112,7 @@
 </header>
 
 <!-- Slider -->
-<div class="slider">
+<div class="slider" onclick="beginAnimation()">
     <div id="slide1" class="slide">
         <div class="slide-content">
             <h1 id="slide1-text1">discover </h1>
@@ -124,7 +124,7 @@
         </div>
         <img src="images/slider/Layer42.png" class="img-responsive">
     </div>
-    <div id="slide2" class="slide" style="display: none">
+    <div id="slide2" class="slide" style="display: none; opacity: 0">
         <div class="slide-content">
             <h1 id="slide2-text1">slide2-text1</h1>
             <h1 id="slide2-text2">slide2-text1</h1>
@@ -327,9 +327,9 @@
                                 <img src="images/news/Layer33.png" class="img-responsive" style="padding-bottom: 30px">
                             </div>
                             <div class="col-md-8">
-                                <small><em>26 september 2016 </em></small>
-                                <h3>Our first participation in annually organized JATA Tourism EXPO</h3>
-                                <p>
+                                <small class="news-date"><em>26 september 2016 </em></small>
+                                <h3 class="news-title">Our first participation in annually organized JATA Tourism EXPO</h3>
+                                <p class="news-content">
                                     text text text text text text text text text text text text
                                     text text text text text text text text text text text text
                                     text text text text text text text text text text text text
@@ -342,9 +342,10 @@
                                 <img src="images/news/Layer36.png" class="img-responsive">
                             </div>
                             <div class="col-md-8">
-                                <small><em>03 september 2016 </em></small>
-                                <h3>Areni Wine Festival gives a great opportunity to discover Armenia</h3>
-                                <p>
+                                <small class="news-date"><em>03 september 2016 </em></small>
+                                <h3 class="news-title">
+                                    Areni Wine Festival gives a great opportunity to discover Armenia</h3>
+                                <p class="news-content">
                                     text text text text text text text text text text text text
                                     text text text text text text text text text text text text
                                     text text text text text text text text text text text text
@@ -457,5 +458,6 @@
 
 </footer>
 
+<script src="js/slider_artak.js"></script>
 </body>
 </html>

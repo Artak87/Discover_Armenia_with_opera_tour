@@ -124,6 +124,10 @@ header {
     border-bottom: 1px solid #fff;
 }
 
+.navbar-custom .navbar-nav > li >  .dropdown-menu {
+    margin-top: 3px;
+}
+
 .navbar-custom .navbar-nav .dropdown-menu > li {
     margin: 10px 20px;
 }
