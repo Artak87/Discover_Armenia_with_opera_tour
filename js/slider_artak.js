@@ -7,7 +7,7 @@ var inAnimation = false;
 
 setInterval(function () {
   beginAnimation();
-}, 30000);
+}, 5000);
 
 
 function start(showSlider, hideSlider) {
@@ -15,6 +15,7 @@ function start(showSlider, hideSlider) {
   showSlider.style.position = 'absolute';
   showSlider.style.top = 0;
   showSlider.style.maxWidth = '100%';
+  showSlider.style.width = '100%';
   showSlider.style.opacity = 0;
   showSlider.style.display = 'block';
 
@@ -33,6 +34,7 @@ function end(showSlide, hideSlide) {
   showSlide.style.position = "relative";
   delete showSlide.style.top;
   delete showSlide.style.maxWidth;
+  delete showSlide.style.width;
 }
 
 function beginAnimation() {
