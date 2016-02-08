@@ -4,6 +4,9 @@
     opacity: 1;
     transition: opacity 3s;
 }
+.slide img {
+    width: 100%;
+}
 
 .slide-content > h1 {
     position: absolute;
@@ -20,7 +23,7 @@
 
 #slide1-text2 {
     right: 54%;
-    top: 28%
+    top: 28%;
 }
 
 #slide1-text3 {
@@ -28,6 +31,24 @@
     top: 46%
 }
 
-#nam-text {
+.text-b {
     font-size: 107px;
+}
+
+#slide2-text1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    right: 53%;
+    top: 34%;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+#slide2-text2 {
+    right: 54%;
+    top: 28%;
+}
+
+#slide2-text3 {
+    right: 53%;
+    top: 46%
 }
